@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.product_card{
+  width: 23rem;
+  height: 25rem;
+  float: left;
+}
+
+.card_img{
+  width: 100%;
+  height: 15rem;
+}
+
+.star_clr{
+  color: yellow;
+}
+
+.product_id{
+  height: 90vh;
+}
+
+.product_img{
+  height: 49rem;
+}
+
+.link_att{
+  text-decoration: none!important;
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+.form_div{
+  height: 80vh!important;
+  
+}
+
+
+
+.breadcumps_item:hover {
+  color:black!important;
+  border-bottom: 1px solid black;
+}
+
