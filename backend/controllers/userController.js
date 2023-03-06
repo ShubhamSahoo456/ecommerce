@@ -1,7 +1,6 @@
 const User = require('../model/UserSchema')
 const Token = require('../utils/authToken')
 
-
 const userRegister = async(req,res) =>{
     try{ 
         const {name,email,password} = req.body
